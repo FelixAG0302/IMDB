@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35222.181
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IMDB", "IMDB\IMDB.csproj", "{4151B30B-A00E-4404-80A5-82EC495C6AB2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IMDB.Domain", "IMDB.Domain\IMDB.Domain.csproj", "{B47387BD-5A7C-4854-8283-BE04BEE2830A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{2C450D6C-7C2F-44CC-8D71-82A5680347AE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{31020116-A7E1-4DF8-BAF2-8E2B3345E154}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{1E47F4FF-0818-4C96-9BCD-4743334DCFAD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infraestructure", "Infraestructure", "{234A7711-C905-40A7-AE34-527FF342A6C3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4151B30B-A00E-4404-80A5-82EC495C6AB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4151B30B-A00E-4404-80A5-82EC495C6AB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4151B30B-A00E-4404-80A5-82EC495C6AB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4151B30B-A00E-4404-80A5-82EC495C6AB2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B47387BD-5A7C-4854-8283-BE04BEE2830A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B47387BD-5A7C-4854-8283-BE04BEE2830A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B47387BD-5A7C-4854-8283-BE04BEE2830A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B47387BD-5A7C-4854-8283-BE04BEE2830A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4151B30B-A00E-4404-80A5-82EC495C6AB2} = {2C450D6C-7C2F-44CC-8D71-82A5680347AE}
+		{B47387BD-5A7C-4854-8283-BE04BEE2830A} = {31020116-A7E1-4DF8-BAF2-8E2B3345E154}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {53BF88CF-4AEA-4F3B-91FD-588BD5F92602}
+	EndGlobalSection
+EndGlobal
