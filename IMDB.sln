@@ -17,6 +17,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infraestructure", "Infraest
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Source", "Source", "{3EA339A3-FB35-4E89-B625-1F4B90EEBA5A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IMDB.Infraestructure", "IMDB.Infraestructure\IMDB.Infraestructure.csproj", "{ADF9F3EA-B52A-4F40-AD84-11C64D0B80CF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -31,6 +33,10 @@ Global
 		{B47387BD-5A7C-4854-8283-BE04BEE2830A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B47387BD-5A7C-4854-8283-BE04BEE2830A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B47387BD-5A7C-4854-8283-BE04BEE2830A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADF9F3EA-B52A-4F40-AD84-11C64D0B80CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADF9F3EA-B52A-4F40-AD84-11C64D0B80CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADF9F3EA-B52A-4F40-AD84-11C64D0B80CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADF9F3EA-B52A-4F40-AD84-11C64D0B80CF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -42,6 +48,7 @@ Global
 		{31020116-A7E1-4DF8-BAF2-8E2B3345E154} = {3EA339A3-FB35-4E89-B625-1F4B90EEBA5A}
 		{1E47F4FF-0818-4C96-9BCD-4743334DCFAD} = {3EA339A3-FB35-4E89-B625-1F4B90EEBA5A}
 		{234A7711-C905-40A7-AE34-527FF342A6C3} = {3EA339A3-FB35-4E89-B625-1F4B90EEBA5A}
+		{ADF9F3EA-B52A-4F40-AD84-11C64D0B80CF} = {234A7711-C905-40A7-AE34-527FF342A6C3}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {53BF88CF-4AEA-4F3B-91FD-588BD5F92602}
