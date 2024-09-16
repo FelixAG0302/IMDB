@@ -21,7 +21,7 @@ namespace IMDB.Infraestructure.Context
         public DbSet<Producer> Producer { get; set; }
         public DbSet<Rating> Rating { get; set; }
         public DbSet<Rol> Rol {  get; set; }
-        public DbSet<Domain.Entities.Type> Type {  get; set; }
+        public DbSet<MediaType> MediaType {  get; set; }
 
         public ApplicationContext() { }
 
@@ -32,7 +32,7 @@ namespace IMDB.Infraestructure.Context
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("server=MSI; Database=IMDB; TrustServerCertificate=true", m => m.MigrationsAssembly(typeof(ApplicationContext).Assembly.FullName));
+            optionsBuilder.UseSqlServer("server=MSI; user Id=sa; password=biblia01**; Database=IMDB; TrustServerCertificate=true;", m => m.MigrationsAssembly(typeof(ApplicationContext).Assembly.FullName));
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)

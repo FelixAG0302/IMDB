@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35222.181
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IMDB", "IMDB\IMDB.csproj", "{4151B30B-A00E-4404-80A5-82EC495C6AB2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IMDB", "IMDB\IMDB.csproj", "{4151B30B-A00E-4404-80A5-82EC495C6AB2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IMDB.Domain", "IMDB.Domain\IMDB.Domain.csproj", "{B47387BD-5A7C-4854-8283-BE04BEE2830A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IMDB.Domain", "IMDB.Domain\IMDB.Domain.csproj", "{B47387BD-5A7C-4854-8283-BE04BEE2830A}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{2C450D6C-7C2F-44CC-8D71-82A5680347AE}"
 EndProject
@@ -17,7 +17,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infraestructure", "Infraest
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Source", "Source", "{3EA339A3-FB35-4E89-B625-1F4B90EEBA5A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IMDB.Infraestructure", "IMDB.Infraestructure\IMDB.Infraestructure.csproj", "{ADF9F3EA-B52A-4F40-AD84-11C64D0B80CF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IMDB.Infraestructure", "IMDB.Infraestructure\IMDB.Infraestructure.csproj", "{ADF9F3EA-B52A-4F40-AD84-11C64D0B80CF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IMDB.Application", "IMDB.Application\IMDB.Application.csproj", "{E2A89AE4-E4B1-46EF-983A-30688D2B5230}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -37,6 +39,10 @@ Global
 		{ADF9F3EA-B52A-4F40-AD84-11C64D0B80CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ADF9F3EA-B52A-4F40-AD84-11C64D0B80CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ADF9F3EA-B52A-4F40-AD84-11C64D0B80CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2A89AE4-E4B1-46EF-983A-30688D2B5230}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2A89AE4-E4B1-46EF-983A-30688D2B5230}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2A89AE4-E4B1-46EF-983A-30688D2B5230}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2A89AE4-E4B1-46EF-983A-30688D2B5230}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -49,6 +55,7 @@ Global
 		{1E47F4FF-0818-4C96-9BCD-4743334DCFAD} = {3EA339A3-FB35-4E89-B625-1F4B90EEBA5A}
 		{234A7711-C905-40A7-AE34-527FF342A6C3} = {3EA339A3-FB35-4E89-B625-1F4B90EEBA5A}
 		{ADF9F3EA-B52A-4F40-AD84-11C64D0B80CF} = {234A7711-C905-40A7-AE34-527FF342A6C3}
+		{E2A89AE4-E4B1-46EF-983A-30688D2B5230} = {1E47F4FF-0818-4C96-9BCD-4743334DCFAD}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {53BF88CF-4AEA-4F3B-91FD-588BD5F92602}

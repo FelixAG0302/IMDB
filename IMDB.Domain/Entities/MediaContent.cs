@@ -11,13 +11,14 @@ namespace IMDB.Domain.Entities
     public class MediaContent  : BaseEntity
     {
         public DateOnly ReleaseDate { get; set; }
+        [Column(TypeName = "decimal(4,2)")]
         public decimal Duration { get; set; }
         public int Awards { get; set; }
         public string Synopsis { get; set; }
         [ForeignKey("MediaGenderId")]
         public MediaGender MediaGenderId { get; set; }
         [ForeignKey("TypeId")]
-        public Type TypeId { get; set; }
+        public MediaType TypeId { get; set; }
         [ForeignKey("ActorId")]
         public MediaActor MediaActorId { get; set; }
         [ForeignKey("MediaDirectorId")]

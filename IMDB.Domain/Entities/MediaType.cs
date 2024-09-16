@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace IMDB.Domain.Entities
 {
-    public class Type : BaseEntity
+    public class MediaType : BaseEntity
     {
 
     }

@@ -9,6 +9,9 @@ namespace IMDB.Domain.Entities
 {
     public class Rating 
     {
+        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
+        public int Id { get; set; }
+        [Column(TypeName = "decimal(4,3)")]
         public decimal Value { get; set; }
         public string Description { get; set; }
         [ForeignKey("MediaId")]
