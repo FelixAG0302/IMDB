@@ -8,6 +8,21 @@
 
   <ItemGroup>
     <Folder Include="Contracs\Persistance\" />
+    <Folder Include="Models\Actor\" />
+    <Folder Include="Models\Cast\" />
+    <Folder Include="Models\Director\" />
+    <Folder Include="Models\Gender\" />
+    <Folder Include="Models\MediaActor\" />
+    <Folder Include="Models\MediaContent\" />
+    <Folder Include="Models\MediaGender\" />
+    <Folder Include="Models\MediaType\" />
+    <Folder Include="Models\MediaProducer\" />
+    <Folder Include="Models\MediaDirector\" />
+    <Folder Include="Models\Producer\" />
+    <Folder Include="Models\Rol\" />
+    <Folder Include="Models\Rating\" />
+    <Folder Include="Extensions\" />
+    <Folder Include="Services\Persistance\" />
   </ItemGroup>
 
 </Project>
