@@ -8,21 +8,20 @@
 
   <ItemGroup>
     <Folder Include="Contracs\Persistance\" />
-    <Folder Include="Models\Actor\" />
-    <Folder Include="Models\Cast\" />
-    <Folder Include="Models\Director\" />
-    <Folder Include="Models\Gender\" />
-    <Folder Include="Models\MediaActor\" />
-    <Folder Include="Models\MediaContent\" />
-    <Folder Include="Models\MediaGender\" />
-    <Folder Include="Models\MediaType\" />
-    <Folder Include="Models\MediaProducer\" />
-    <Folder Include="Models\MediaDirector\" />
-    <Folder Include="Models\Producer\" />
-    <Folder Include="Models\Rol\" />
-    <Folder Include="Models\Rating\" />
-    <Folder Include="Extensions\" />
-    <Folder Include="Services\Persistance\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="13.0.1" />
+    <PackageReference Include="Mapster" Version="7.4.0" />
+    <PackageReference Include="Mapster.DependencyInjection" Version="1.0.1" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="8.0.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="8.0.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="8.0.1" />
+    <PackageReference Include="Microsoft.Extensions.Options.ConfigurationExtensions" Version="8.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\IMDB.Domain\IMDB.Domain.csproj" />
   </ItemGroup>
 
 </Project>
